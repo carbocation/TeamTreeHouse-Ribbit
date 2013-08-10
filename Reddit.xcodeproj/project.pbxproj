@@ -19,6 +19,28 @@
 		2C283E8617B63E1C00E69F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283E6E17B63E1C00E69F65 /* UIKit.framework */; };
 		2C283E8E17B63E1C00E69F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C283E8C17B63E1C00E69F65 /* InfoPlist.strings */; };
 		2C283E9017B63E1C00E69F65 /* RedditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C283E8F17B63E1C00E69F65 /* RedditTests.m */; };
+		2C283E9A17B63EA600E69F65 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C283E9917B63EA600E69F65 /* MainStoryboard.storyboard */; };
+		2C283EA117B6409F00E69F65 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C283E9B17B6409F00E69F65 /* camera.png */; };
+		2C283EA217B6409F00E69F65 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C283E9C17B6409F00E69F65 /* camera@2x.png */; };
+		2C283EA317B6409F00E69F65 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C283E9D17B6409F00E69F65 /* friends.png */; };
+		2C283EA417B6409F00E69F65 /* friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C283E9E17B6409F00E69F65 /* friends@2x.png */; };
+		2C283EA517B6409F00E69F65 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C283E9F17B6409F00E69F65 /* inbox.png */; };
+		2C283EA617B6409F00E69F65 /* inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C283EA017B6409F00E69F65 /* inbox@2x.png */; };
+		2C283EAA17B6481100E69F65 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C283EA917B6481100E69F65 /* InboxViewController.m */; };
+		2C283EAC17B64DE900E69F65 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EAB17B64DE900E69F65 /* Parse.framework */; };
+		2C283EB617B64E7B00E69F65 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EAD17B64E7B00E69F65 /* AudioToolbox.framework */; };
+		2C283EB717B64E7B00E69F65 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EAE17B64E7B00E69F65 /* CFNetwork.framework */; };
+		2C283EB817B64E7B00E69F65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EAF17B64E7B00E69F65 /* CoreLocation.framework */; };
+		2C283EB917B64E7B00E69F65 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EB017B64E7B00E69F65 /* libz.1.1.3.dylib */; };
+		2C283EBA17B64E7B00E69F65 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EB117B64E7B00E69F65 /* MobileCoreServices.framework */; };
+		2C283EBB17B64E7B00E69F65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EB217B64E7B00E69F65 /* QuartzCore.framework */; };
+		2C283EBC17B64E7B00E69F65 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EB317B64E7B00E69F65 /* Security.framework */; };
+		2C283EBD17B64E7B00E69F65 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EB417B64E7B00E69F65 /* StoreKit.framework */; };
+		2C283EBE17B64E7B00E69F65 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C283EB517B64E7B00E69F65 /* SystemConfiguration.framework */; };
+		2C283EC117B6509600E69F65 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C283EC017B6509600E69F65 /* LoginViewController.m */; };
+		2C283EC417B650A700E69F65 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C283EC317B650A700E69F65 /* SignUpViewController.m */; };
+		2C283EC717B668A800E69F65 /* EditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C283EC617B668A800E69F65 /* EditFriendsViewController.m */; };
+		2C283ECA17B6701E00E69F65 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C283EC917B6701E00E69F65 /* FriendsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +70,33 @@
 		2C283E8B17B63E1C00E69F65 /* RedditTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedditTests-Info.plist"; sourceTree = "<group>"; };
 		2C283E8D17B63E1C00E69F65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C283E8F17B63E1C00E69F65 /* RedditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditTests.m; sourceTree = "<group>"; };
+		2C283E9917B63EA600E69F65 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2C283E9B17B6409F00E69F65 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		2C283E9C17B6409F00E69F65 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		2C283E9D17B6409F00E69F65 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		2C283E9E17B6409F00E69F65 /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends@2x.png"; sourceTree = "<group>"; };
+		2C283E9F17B6409F00E69F65 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		2C283EA017B6409F00E69F65 /* inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inbox@2x.png"; sourceTree = "<group>"; };
+		2C283EA817B6481100E69F65 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		2C283EA917B6481100E69F65 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		2C283EAB17B64DE900E69F65 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2C283EAD17B64E7B00E69F65 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2C283EAE17B64E7B00E69F65 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2C283EAF17B64E7B00E69F65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2C283EB017B64E7B00E69F65 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		2C283EB117B64E7B00E69F65 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2C283EB217B64E7B00E69F65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2C283EB317B64E7B00E69F65 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2C283EB417B64E7B00E69F65 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2C283EB517B64E7B00E69F65 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2C283EBF17B6509600E69F65 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		2C283EC017B6509600E69F65 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		2C283EC217B650A700E69F65 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = ../SignUpViewController.h; sourceTree = "<group>"; };
+		2C283EC317B650A700E69F65 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = ../SignUpViewController.m; sourceTree = "<group>"; };
+		2C283EC517B668A800E69F65 /* EditFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditFriendsViewController.h; path = ../EditFriendsViewController.h; sourceTree = "<group>"; };
+		2C283EC617B668A800E69F65 /* EditFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditFriendsViewController.m; path = ../EditFriendsViewController.m; sourceTree = "<group>"; };
+		2C283EC817B6701E00E69F65 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsViewController.h; path = ../FriendsViewController.h; sourceTree = "<group>"; };
+		2C283EC917B6701E00E69F65 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsViewController.m; path = ../FriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +104,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C283EB617B64E7B00E69F65 /* AudioToolbox.framework in Frameworks */,
+				2C283EB717B64E7B00E69F65 /* CFNetwork.framework in Frameworks */,
+				2C283EB817B64E7B00E69F65 /* CoreLocation.framework in Frameworks */,
+				2C283EB917B64E7B00E69F65 /* libz.1.1.3.dylib in Frameworks */,
+				2C283EBA17B64E7B00E69F65 /* MobileCoreServices.framework in Frameworks */,
+				2C283EBB17B64E7B00E69F65 /* QuartzCore.framework in Frameworks */,
+				2C283EBC17B64E7B00E69F65 /* Security.framework in Frameworks */,
+				2C283EBD17B64E7B00E69F65 /* StoreKit.framework in Frameworks */,
+				2C283EBE17B64E7B00E69F65 /* SystemConfiguration.framework in Frameworks */,
 				2C283E6D17B63E1C00E69F65 /* CoreGraphics.framework in Frameworks */,
 				2C283E6F17B63E1C00E69F65 /* UIKit.framework in Frameworks */,
+				2C283EAC17B64DE900E69F65 /* Parse.framework in Frameworks */,
 				2C283E6B17B63E1C00E69F65 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +136,8 @@
 		2C283E5E17B63E1C00E69F65 = {
 			isa = PBXGroup;
 			children = (
+				2C283EA717B640AA00E69F65 /* images */,
+				2C283E9917B63EA600E69F65 /* MainStoryboard.storyboard */,
 				2C283E7017B63E1C00E69F65 /* Reddit */,
 				2C283E8917B63E1C00E69F65 /* RedditTests */,
 				2C283E6917B63E1C00E69F65 /* Frameworks */,
@@ -96,6 +157,16 @@
 		2C283E6917B63E1C00E69F65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C283EAD17B64E7B00E69F65 /* AudioToolbox.framework */,
+				2C283EAE17B64E7B00E69F65 /* CFNetwork.framework */,
+				2C283EAF17B64E7B00E69F65 /* CoreLocation.framework */,
+				2C283EB017B64E7B00E69F65 /* libz.1.1.3.dylib */,
+				2C283EB117B64E7B00E69F65 /* MobileCoreServices.framework */,
+				2C283EB217B64E7B00E69F65 /* QuartzCore.framework */,
+				2C283EB317B64E7B00E69F65 /* Security.framework */,
+				2C283EB417B64E7B00E69F65 /* StoreKit.framework */,
+				2C283EB517B64E7B00E69F65 /* SystemConfiguration.framework */,
+				2C283EAB17B64DE900E69F65 /* Parse.framework */,
 				2C283E6A17B63E1C00E69F65 /* Foundation.framework */,
 				2C283E6C17B63E1C00E69F65 /* CoreGraphics.framework */,
 				2C283E6E17B63E1C00E69F65 /* UIKit.framework */,
@@ -107,8 +178,18 @@
 		2C283E7017B63E1C00E69F65 /* Reddit */ = {
 			isa = PBXGroup;
 			children = (
+				2C283EC817B6701E00E69F65 /* FriendsViewController.h */,
+				2C283EC917B6701E00E69F65 /* FriendsViewController.m */,
+				2C283EC517B668A800E69F65 /* EditFriendsViewController.h */,
+				2C283EC617B668A800E69F65 /* EditFriendsViewController.m */,
+				2C283EBF17B6509600E69F65 /* LoginViewController.h */,
+				2C283EC017B6509600E69F65 /* LoginViewController.m */,
+				2C283EC217B650A700E69F65 /* SignUpViewController.h */,
+				2C283EC317B650A700E69F65 /* SignUpViewController.m */,
 				2C283E7917B63E1C00E69F65 /* AppDelegate.h */,
 				2C283E7A17B63E1C00E69F65 /* AppDelegate.m */,
+				2C283EA817B6481100E69F65 /* InboxViewController.h */,
+				2C283EA917B6481100E69F65 /* InboxViewController.m */,
 				2C283E7C17B63E1C00E69F65 /* Images.xcassets */,
 				2C283E7117B63E1C00E69F65 /* Supporting Files */,
 			);
@@ -142,6 +223,19 @@
 				2C283E8C17B63E1C00E69F65 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C283EA717B640AA00E69F65 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2C283E9B17B6409F00E69F65 /* camera.png */,
+				2C283E9C17B6409F00E69F65 /* camera@2x.png */,
+				2C283E9D17B6409F00E69F65 /* friends.png */,
+				2C283E9E17B6409F00E69F65 /* friends@2x.png */,
+				2C283E9F17B6409F00E69F65 /* inbox.png */,
+				2C283EA017B6409F00E69F65 /* inbox@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +285,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Christer Nordbø";
 				TargetAttributes = {
+					2C283E6617B63E1C00E69F65 = {
+						DevelopmentTeam = ECBR46EAP5;
+					};
 					2C283E8117B63E1C00E69F65 = {
 						TestTargetID = 2C283E6617B63E1C00E69F65;
 					};
@@ -219,8 +316,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C283E9A17B63EA600E69F65 /* MainStoryboard.storyboard in Resources */,
+				2C283EA317B6409F00E69F65 /* friends.png in Resources */,
+				2C283EA417B6409F00E69F65 /* friends@2x.png in Resources */,
+				2C283EA217B6409F00E69F65 /* camera@2x.png in Resources */,
+				2C283EA517B6409F00E69F65 /* inbox.png in Resources */,
 				2C283E7517B63E1C00E69F65 /* InfoPlist.strings in Resources */,
+				2C283EA117B6409F00E69F65 /* camera.png in Resources */,
 				2C283E7D17B63E1C00E69F65 /* Images.xcassets in Resources */,
+				2C283EA617B6409F00E69F65 /* inbox@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +343,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C283EC117B6509600E69F65 /* LoginViewController.m in Sources */,
+				2C283EC417B650A700E69F65 /* SignUpViewController.m in Sources */,
+				2C283ECA17B6701E00E69F65 /* FriendsViewController.m in Sources */,
 				2C283E7B17B63E1C00E69F65 /* AppDelegate.m in Sources */,
 				2C283E7717B63E1C00E69F65 /* main.m in Sources */,
+				2C283EC717B668A800E69F65 /* EditFriendsViewController.m in Sources */,
+				2C283EAA17B6481100E69F65 /* InboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +464,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Christer/Development/iOS/Reddit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reddit/Reddit-Prefix.pch";
 				INFOPLIST_FILE = "Reddit/Reddit-Info.plist";
@@ -368,6 +482,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Christer/Development/iOS/Reddit,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reddit/Reddit-Prefix.pch";
 				INFOPLIST_FILE = "Reddit/Reddit-Info.plist";
